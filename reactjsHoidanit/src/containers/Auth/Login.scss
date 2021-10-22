@@ -1,0 +1,91 @@
+.login-background{
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+
+
+    .login-container{
+        max-width: 500px;
+        min-width: 300px;
+        height: 500px;
+        width: 400px;
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+  
+
+
+        .login-content{
+            padding: 20px;
+
+            .login-title{
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .login-input{
+                margin: 12px 0px;
+                border: none;
+                border-radius: none;
+                outline: 0;
+                border-bottom: 1px solid #999;
+                
+            }
+            .login-with{
+
+                font-weight: 600;
+            }
+
+            .social-login{
+                text-align: center;
+
+                .social-icon{
+                    font-size: 36px;
+                    margin: 20px 20px;
+  
+                }
+                .fb {
+                    color: #4c6ef5;
+                }
+
+                .gg {
+                    color: #f73827;
+                }
+            }
+
+            .login-password{
+                position: relative;
+                .show-password {
+                    position: absolute;
+                    right   : 10px;
+                    top     : 10px;
+                    color: #777;
+                    cursor: pointer;
+                }
+            }
+            }
+
+        
+    }
+    .btn-login{
+        width: 100%;
+        margin: 12px 0px;
+        border: none;
+        color: #fff;
+        padding: 8px 0px;
+        border-radius: 25px;
+        cursor: pointer;
+        background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    }
+    .forgot-password{
+        float: right;
+        font-size: 12px;
+    }
+}
